@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+
+        <title>Furniture Market</title>
+        <link rel="icon" href="./imges/logo.png" width=z type="image/icon type">
+
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css"/>
+        <link rel="stylesheet" href="./css/css2.css"/>
+        <link rel="stylesheet" href="./css/css3.css"/>
+        <link rel="stylesheet" href="./css/css4.css"/>
+        <link rel="stylesheet" href="./css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     
+    </head>
+    <body >
+
+        <header>
+            <div class="h-containt-0">
+            <nav class="navbar navbar-expand-lg navbar-light h-containt-0">
+                <div class="container-fluid h-containt-1">
+                    <a href="./index.html" class="h-a-titale"><img src="./imges/logo.png" alt="">Furniture Market</a>
+                  <button class="navbar-toggler tog-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" id="sp-h-tog"></span>
+                  </button>
+                  <div class="collapse navbar-collapse h-containt-3 shadow-collapse" id="navbarScroll">
+                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll h1-icon" id="h-icon" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item h2-icon" >
+                          <img src="./imges/Dark_Thime/moon.png" alt="" draggable="false" id="dark-icon">
+                        </li>
+                      </ul>
+                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll h-containt-4" id="links" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a href="./login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="./register.html">Register</a>
+                      </li> 
+                    </ul>
+                    <ul class="navbar-nav my-2 my-lg-0 h-containt-4 h-containt-2" id="info-of-user" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a href="#" id="user"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a  class="header-a" id="h-a-none"><i class="fas fa-shopping-cart"></i><span>0</span> Cart <i class="fas fa-caret-down arrow header-icon" id="arrow"></i></a>
+                            <div class="header-a-d shadow">
+                                <div class="header-a-d3"><a href="./checkedProduct.html"><i class="fas fa-tags"></i>view all products</a></div>
+                                <div class="header-a-d4" id="header-a-d-allPro" ></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./index.html" id="logout" ><i class="fas fa-sign-out-alt logoutI"></i>Logout</a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main class="shadow">
+            <div class="main-d">
+                <div class="main-1 col-12 col-md-7"><p>Welcome to our website</p></div>
+                <div class="main-2 col-12 col-md-6"></div>
+            </div>
+        </main>
+
+        <section class="sec1">
+            <div class="radio-inputs col-11 shadow">
+                <label class="rad-1 rad-2">
+                    <span class="sp1">Search by <i class="fas fa-sync-alt fa-fw unchecked-icon sh-i"></i></span>
+                </label>
+
+                <label class="rad-1">
+                    <input type="radio" name="radio-1" value="checked" class="select1">
+                    <span class="name">Name</span>
+                </label>
+                    
+                <label class="rad-1">
+                    <input type="radio" name="radio-1" class="select2">
+                    <span class="name">Catigory</span>
+                </label>
+
+                <div class="group col-12 col-md-6 mx-auto">
+                    <svg class="s-icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="sec1-input Search" id="sec1Search">
+                </div>
+            </div>
+        </section>
+
+        <section class="sec2 shadow col-11">
+            <div class="all-sec2" id="allProducts">
+        
+            </div>
+        </section>
+
+        <footer class="foot">
+            <div class="foot-1">
+                <p>Copyright &copy; 2024, Furniture Market. All rights reserved.</p>
+                <p class="p-foot">Web Design by GM</p>
+            </div>
+        </footer>
+
+
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<script src="./js/bootstrap.bundle.min.js"></script>   
+        <script src="./js/script.js"></script>  
+        <script src="./js/allWebSite.js"></script>
+    </body>
+</html>
